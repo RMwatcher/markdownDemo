@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Markdown Demo</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="markdown-demo">Markdown Demo</h1>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h2 id="paragraphs">Paragraphs</h2>
+<p>Just start typing and you get your paragraphs</p>
+<p>This is the second paragraphs.</p>
+<h2 id="emphasis">Emphasis</h2>
+<p><strong>Bold</strong></p>
+<p>This is where it looks like when Words get <strong>bold</strong> as soon.</p>
+<p>You can also use <strong>bold</strong> as well, but ** are preferred.</p>
+<p><em>Italics</em></p>
+<p>This word will be <em>Italics</em> like so.</p>
+<p>Can also use use _ again as well <em>Italics</em> but * is perferred.</p>
+<p><em><strong>Bold and Italics</strong></em></p>
+<p>Use three * to <em><strong>Bold and Italics</strong></em> at the same time</p>
+<p>Again using three _ <em><strong>Will do the same thing</strong></em> # is perferred.</p>
+<p>Also you can do this as well <strong><em>Bold and Italics</em></strong> as a fourth way **_.</p>
+<p>**Blockquotes</p>
+<p>Regular BLockquote</p>
+<blockquote>
+<p>This is a blockquote using Markdown.</p>
+</blockquote>
+<p>Blockquotes with multiple Paragraphs</p>
+<blockquote>
+<p>This is a blockquote using Markdown. This is a blockquote using Markdown. This is a blockquote using Markdown. This is a blockquote using Markdown.</p>
+<p>This is a blockquote using Markdown. This is a blockquote using Markdown. This is a blockquote using Markdown. This is a blockquote using Markdown.</p>
+</blockquote>
+<p>Nested Blockquotes</p>
+<blockquote>
+<p>This is a blockquote using Markdown. This is a blockquote using Markdown. This is a blockquote using Markdown.
+This is a blockquote using Markdown.</p>
+<blockquote>
+<p>Hello again</p>
+<blockquote>
+<p>Can you see these nested blockquotes?</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Blockquotes with elements</p>
+<blockquote>
+<h1 id="hello-world">Hello world</h1>
+<ul>
+<li>Apples</li>
+<li>Oragnes</li>
+<li>Bananas</li>
+</ul>
+<p>Here is another blockquote that uses elements which is an unordered list.</p>
+</blockquote>
+<p>Ordered lists</p>
+<ol>
+<li>4 apples</li>
+<li>3 oranges</li>
+<li>5 bananas</li>
+<li>7 grapes</li>
+</ol>
+<p>Unordered lists</p>
+<ul>
+<li>apples again</li>
+<li>bananas twice</li>
+<li>orages for the second time</li>
+<li>grapes for added measure</li>
+</ul>
+<p>Nesting in Lists</p>
+<ol>
+<li>apples</li>
+<li>oranges</li>
+</ol>
+<ul>
+<li>two small</li>
+<li>One big
+<ul>
+<li>one very big</li>
+<li>Another for show</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>bananas</li>
+<li>grapes</li>
+</ol>
+<p>Elemets within Lists (blockquotes, code, or paragraph)</p>
+<ol>
+<li>
+<p>Bread</p>
+</li>
+<li>
+<p>Vegatables</p>
+<p>A mixture of carrots, onions, celery, and jalapenos</p>
+</li>
+<li>
+<p>Fruits</p>
+<blockquote>
+<p>Never stop improving</p>
+</blockquote>
+</li>
+</ol>
+<p>Alternative syntax for unordered</p>
+<ul>
+<li>Use &quot;* &quot; as an alternative</li>
+</ul>
+<ul>
+<li>Use &quot;- &quot; as an alternative</li>
+</ul>
+<h2 id="code">Code</h2>
+<p>Inline Code</p>
+<p>Suppose you want to insert <code>&lt;h1&gt;Hello world&lt;/h1&gt;</code> using a heading</p>
+<p>Use ` marks or backticks to include tags into your markdown</p>
+<p>Fenced Code Block</p>
+<p>You need to insert the following code block into your web page</p>
+<p>You can specific which language you want to use by adding which language right after the three backticks without any spaces below</p>
+<pre><code><code><div>&lt;p&gt;This is a sample code block without any specific language used.&lt;/p&gt;
+</div></code></code></pre>
+<pre><code class="language-html"><div><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sidebar"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Hello World<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is a sample code block with html as the specific language used.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div></code></pre>
+<h2 id="links">Links</h2>
+<p><code>Link: https://github.com/reginapilip/getting-started-with-markdown</code></p>
+<p><a href="URL" title="Title">Link description</a></p>
+<p><a href="https://github.com/reginapilip/getting-started-with-markdown" title="Regina's Github Repo">This is Regina's Github repo</a></p>
+<h2 id="images">Images</h2>
+<p><code>Link: https://picsum.photos/id/237/200/300</code></p>
+<p>![Alt text](absolute/relative path to your image)</p>
+<p><img src="https://picsum.photos/id/237/200/300" alt="Alt text"></p>
+<h2 id="escaping-characters">Escaping Characters</h2>
+<p><code>See table in repo</code></p>
+<p>This is `not a code`</p>
+<p>This is <code>code</code></p>
+<p>*</p>
+<p># Heading 1</p>
+<p>## Heading 2</p>
+<h2 id="html">HTML</h2>
+<h2>Here is a picture of a dog</h2>
+<img src="https://picsum.photos/id/237/200/300" alt="A picture of a cute dog">
+<h2 id="tables">Tables</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Batman</td>
+<td>Black</td>
+</tr>
+<tr>
+<td>Superman</td>
+<td>blue</td>
+</tr>
+<tr>
+<td>Spiderman</td>
+<td>Red</td>
+</tr>
+</tbody>
+</table>
+<h2 id="converting-your-markdown-into-an-html-file">Converting your Markdown into an HTML File</h2>
+<!-- Comments in Markdown -->
+<ul>
+<li>Open the command palette</li>
+<li>Search Markdown all in one Print current document to HTML</li>
+</ul>
+
+    </body>
+    </html>
